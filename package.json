@@ -1,0 +1,27 @@
+{
+  "name": "theme-dev-course",
+  "version": "1.0.0",
+  "description": "My first Shopify theme",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharifbubuka/shopify-course__theme-development.git"
+  },
+  "author": "Bubuka Sharif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharifbubuka/shopify-course__theme-development/issues"
+  },
+  "homepage": "https://github.com/sharifbubuka/shopify-course__theme-development#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.42",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.1.0",
+    "tailwindcss": "^3.0.22"
+  },
+  "dependencies": {
+    "alpinejs": "^3.9.0"
+  }
+}
