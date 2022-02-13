@@ -1,0 +1,32 @@
+<div>
+    {{ section.settings.user_name }}
+</div>
+
+{% schema %}
+{
+   "name": "Profile",
+   "settings": [
+        {
+           "type": "image_picker",
+           "id": "user_image",
+           "label": "User Photo"
+        },
+        {
+           "type": "text",
+           "id": "user_name",
+           "label": "User name"
+        },
+        {
+           "type": "richtext",
+           "id": "user_bio",
+           "label": "User Bio"
+        }
+   ],
+   "presets": [
+        {
+            "category": "Profile",
+            "name": "User Profile"
+        }
+    ]
+}
+{% endschema %}
