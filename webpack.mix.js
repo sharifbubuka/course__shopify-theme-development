@@ -1,6 +1,8 @@
-import mix from require("laravel-mix");
+const mix = require("laravel-mix");
 
 const tailwindcss = require("tailwindcss");
+
+mix.disableNotifications();
 
 mix
 	.js("src/js/app", "assets")
