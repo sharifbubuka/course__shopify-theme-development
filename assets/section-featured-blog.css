@@ -29,12 +29,6 @@
   color: rgba(var(--color-foreground), 0.75);
 }
 
-@media screen and (min-width: 990px) {
-  .grid--full-width .article-card .card__content {
-    text-align: center;
-  }
-}
-
 .blog__title {
   margin: 0;
 }
@@ -85,4 +79,3 @@
     }
   }
 }
-
